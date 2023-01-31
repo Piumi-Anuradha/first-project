@@ -7,43 +7,61 @@ header {
     border: 10px;
      
 }
-
 body{
     font-family:'Tangerine', cursive;
-    color:#FF7E00;
-    font-size: 40px;
+    color: #FFBF00;
+    font-size: 50px;
+    font-weight: bolder;
        
 }
+
 
 h2{
     font-family:'Tangerine', cursive;
     letter-spacing: 4px;
-    color:#FF7E00;;
-    font-size: 80px;
+    color: #FFBF00;
+    font-size: 160px;
     font-weight: bold;
+    float: left;
+    
 }
+
+
 
 #items{
     font-size: 80%;
     list-style-type: none;
     letter-spacing: 4px;
+    font-weight: bold;
+    color: #FFBF00;
 }
 
 #logo, #items{
-    line-height: 75px;
+    line-height: 140px;
 
 
 }
 
-#fst-picture {
-    
-    
-    width: 600px;
-    height: 150px;
-    
-
-    
+#fst-picture{
+    height:600px;
+    width: 100%;
+    background: url("../img/download.jpg") no-repeat center;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    background-size: 100%;
+    opacity: 4;
+   
+   
 }
+
+#fst-picture-outer{
+    height:600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
 
 #items li {
     float: right;
@@ -52,7 +70,7 @@ h2{
 
 #items a {
     text-decoration: none;
-    color: inherit;
+    color: #FFBF00;;
 }
 
 #items a:hover{
@@ -78,6 +96,7 @@ footer{
    
     justify-content: flex-end;
     font-weight: bold;
+    color: #84DE02;
     
 
    
@@ -85,22 +104,36 @@ footer{
 
 .social-networks{
     text-align: center;
+   
 
 }
 
 .social-networks li{
     display: inline;
+    color: #84DE02;
 }
 
 .social-networks li{
     font-size: 100%;
     margin: 1%;
     padding-bottom: 5px;
-    color: #777777;
+    color: #84DE02;
 }
 
 
 /*second page*/
+
+.breakfast {
+    padding: 0%;
+}
+
+
+.card {
+    
+    display: inline-block;
+
+
+}
 
 
 
